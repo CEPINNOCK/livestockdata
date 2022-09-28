@@ -6,6 +6,7 @@ import yfinance as yf
 
 
 df = yf.Ticker('MSFT').history(period='1y')[['Close', 'Open', 'High']]
+print("This gives me live stock data")
 
 
 print(df)
